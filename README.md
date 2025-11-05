@@ -9,3 +9,5 @@ az provider register --namespace Microsoft.KeyVault
 
 Generate a SSH key. 
 
+terraform plan -out tfplan
+terraform apply tfplan
